@@ -1,0 +1,16 @@
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    border: 0.5rem solid pink;
+    background-color: palevioletred;
+    display: grid;
+    grid-template-columns: minmax(3rem, 30rem)  20rem minmax(6rem, 25rem) ;
+    grid-template-rows: repeat(3, auto);
+}
+
+.item{ 
+    border: 0.5rem solid royalblue;
+    font-size: 2rem;
+}

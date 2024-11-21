@@ -1,0 +1,88 @@
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    border: 0.5rem solid black;
+    background-color: papayawhip;
+    height: 60rem;
+    display: grid;
+    grid-template-columns: 20rem 20rem 20rem;
+    grid-template-rows: 18rem 18rem 18rem;
+    place-content: center;
+    grid-gap: 1rem;
+    grid-template-areas: 
+    "headerStart headerend headerend"
+    "mainStart mainStart mainEnd"
+    "footerStart footerCenter footerEnd";
+    
+}
+.item{
+    border-radius: 0.5rem;
+}
+
+
+
+.item-1{
+    /* background-color: violet; */
+    grid-area: headerStart; 
+    background-image: url("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_4.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.item-2{
+    /* background-color: purple; */
+    grid-area: headerend;
+    background-image: url("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_0.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.item-3{
+    /* background-color: purple; */
+    background-image: url("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_14.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    grid-area: mainStart;
+    
+}
+
+.item-4{
+    /* background-color: violet; */
+    background-image: url("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_7.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    grid-area: mainEnd;
+}
+
+.item-5{
+    /* background-color: violet; */
+    background-image: url("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_1.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    grid-area: footerStart;
+}
+
+.item-6{
+    /* background-color: pink; */
+    
+    background-image: url("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_3.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    grid-area: footerCenter;
+}
+
+.item-7{
+    /* background-color: purple; */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHdxvFWjdKS3KOcIIY5bnIbuDf48Req126_DWCxCZnAXva2dZzGeV0cZEOWW4PF-py-0o&usqp=CAU");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    grid-area: footerEnd;
+}

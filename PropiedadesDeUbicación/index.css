@@ -1,0 +1,41 @@
+html{
+    font-size: 62.5%;
+}
+.container{
+    border: 0.5rem solid palevioletred;
+    display: grid;
+    grid-template-columns: 15rem 15rem 15rem;
+    grid-template-rows: 7.5rem 7.5rem 7.5rem;
+    place-content: center;
+    grid-template-areas: 
+    "header header header"
+    "side main main"
+    "side main main";
+    grid-gap: 1rem;
+}
+
+.item{
+    font-size: 4rem;
+}
+
+.item-1{
+    border: 0.5rem solid black;
+    background-color: blue;
+    grid-area: header;
+    /* grid-column-start: 1;
+    grid-column-end: 4;*/
+} 
+
+.item-2{
+    border: 0.5rem solid orange;
+    background-color: red;
+    grid-area: side;
+    /* grid-row:2/4 ; */
+}
+
+.item-3{
+    border: 0.5rem solid yellow;
+    background-color: violet;
+    grid-area: main;
+    /* grid-area: 2 / 2 / 4 / 4; */
+}

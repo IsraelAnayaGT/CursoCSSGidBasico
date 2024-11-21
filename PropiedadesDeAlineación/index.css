@@ -1,0 +1,19 @@
+html{
+    font-size: 62.5%;
+}
+
+.contenedor{
+    border: 0.5rem solid violet;
+    background-color: aqua;
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: 15rem 15rem 15rem;
+    grid-auto-rows: 15rem;
+    height: 60rem;
+    
+}
+
+.item{
+    border: 0.5rem solid blue;
+    font-size: 4rem;
+}

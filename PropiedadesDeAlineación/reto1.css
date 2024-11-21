@@ -1,0 +1,26 @@
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    background-color: red;
+    border: 0.1rem solid black;
+    display: grid;
+    grid-gap: 2rem;
+    place-content: center;
+    height: 60rem;
+    grid-template-columns: 15rem 15rem;
+    grid-auto-rows: 15rem;
+}
+
+.item{
+    background-color: blue;
+    display: grid;
+    align-items: end;
+    justify-items: end;
+}
+
+.item span{
+    background-color: green;
+    font-size: 3rem;
+}
